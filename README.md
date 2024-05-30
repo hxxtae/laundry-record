@@ -73,7 +73,7 @@
   > 등록된 고객 정보를 기반으로 세탁 품목 주문 접수 및 주문 조회할 수 있습니다.   
   > 접수된 주문 데이터를 기반으로 누적 판매 품목 및 가격을 table과 Graph로 시각적인 데이터를 제공합니다.
 
-### GitBook
+## GitBook
 
 [Welaundry GitBook Docs](https://hxxtae.gitbook.io/welaundry-docs/)
 
@@ -84,8 +84,6 @@
 | TypeScript | React    | Recoil    | React-Query    | styled-components    | framer-motion    |
 | :--------: | :------: | :-------: | :------------: | :------------------: | :--------------: |
 |   ![ts]    | ![react] | ![recoil] | ![react-query] | ![styled-components] | ![framer-motion] |
-
-<br>
 
 ### Server
 
@@ -98,9 +96,6 @@
 | Client (netlify) | Server (koyeb) |
 | :--------------: | :------------: |
 | ![netlify]       | ![koyeb]       |
-
-
-<br>
 
 ## License
 

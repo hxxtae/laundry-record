@@ -3,7 +3,7 @@ import { useRecoilValue } from 'recoil';
 import styled from 'styled-components';
 
 import { descState } from '../../global/atoms';
-import { headerHeight, includes, media } from '../../styles';
+import { headerHeight, includes, media, scroll } from '../../styles';
 import { Background, Containers, Overlay } from '../../components';
 
 import Header from './Header';
@@ -62,6 +62,8 @@ const Context = styled(motion.section)`
   padding: 10px;
   background-color: ${(props) => props.theme.bgColorThi};
   transition: background-color 200ms ease-in-out;
+  overflow-y: scroll;
+  ${scroll.custom(0, "transparent", "transparent")}
 `;
 
 
